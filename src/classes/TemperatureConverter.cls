@@ -4,4 +4,9 @@ public class TemperatureConverter {
         Decimal cs = (fh - 32) * 5/9;
         return cs.setScale(2);
     }
+    //Simulation of the Outbound call US05
+    public static String outboundCall(String message) {
+        String result = message;
+        return result;
+    }
 }
