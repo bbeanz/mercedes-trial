@@ -5528,6 +5528,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.VIN__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ChangeRequest.BusinessJustification</field>
         <readable>true</readable>
     </fieldPermissions>
