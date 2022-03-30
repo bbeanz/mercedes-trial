@@ -406,6 +406,20 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>VIN__c</fullName>
+        <description>Vehicle Identification Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Vehicle Identification Number</inlineHelpText>
+        <label>VIN</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllOpenCases</fullName>
         <filterScope>Everything</filterScope>
