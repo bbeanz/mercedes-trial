@@ -20,5 +20,8 @@ private class TemperatureConverterTest {
         Decimal celsius = TemperatureConverter.DEV2FahrenheitToCelsius(-10);
         System.assertEquals(-23.33,celsius);
     }
-      
+    @isTest static void testOutboundCall() {
+        String result = TemperatureConverter.outboundCall('test');
+        System.assertEquals('test',result);
+    }
 }
