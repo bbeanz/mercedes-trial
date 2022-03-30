@@ -88,6 +88,14 @@
                 <behavior>Edit</behavior>
                 <field>SourceId</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>ContactMobile</field>
+            </layoutItems>
+             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>VIN__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
