@@ -23,6 +23,10 @@
                 <behavior>Edit</behavior>
                 <field>CustomerMBId__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AnotherCustomField__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
