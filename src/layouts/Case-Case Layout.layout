@@ -72,7 +72,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>VIN__c</field>
+                <field>ContactSecondaryPhone__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -91,6 +91,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>ContactMobile</field>
+            </layoutItems>
+             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>VIN__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
